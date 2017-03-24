@@ -1,7 +1,6 @@
 var express = require("express");
 var app = express();
 
-var ip = require("ip");
 app.get('/', function(req, res) {
     var info = {
          'ipaddress':  req.headers['x-forwarded-for'],
