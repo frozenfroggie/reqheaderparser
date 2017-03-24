@@ -1,0 +1,22 @@
+{
+  "name": "reqheaderparser",
+  "version": "1.0.0",
+  "description": "Request Header Parser Microservice for FCC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frozenfroggie/reqheaderparser.git"
+  },
+  "author": "frozenfroggie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frozenfroggie/reqheaderparser/issues"
+  },
+  "homepage": "https://github.com/frozenfroggie/reqheaderparser#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
