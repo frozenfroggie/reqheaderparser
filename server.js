@@ -11,7 +11,7 @@ app.get('/whoami', function(req, res) {
   res.json(info);
 });
 
-var port = process.env.PORT || 8080;
+var port = process.env.PORT || 5000;
 app.listen(port, function() {
   console.log('Node listening on port: ' + port);
 });
